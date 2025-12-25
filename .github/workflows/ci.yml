@@ -39,7 +39,7 @@ jobs:
     - name: Verify required files
       run: |
         test -f app/streamlit_app.py
-        test -f model/best_face_mask.onnx
+        test -f best_face_mask.onnx
         echo "Required files exist."
 
     # ----------------------------
